@@ -81,5 +81,5 @@ const userAgents = [
       'Mozilla/5.0 (Macintosh; Intel Mac OS X 10_15_3) AppleWebKit/605.1.15 (KHTML, like Gecko) Version/13.0.5 Safari/605.1.15',
       'Mozilla/5.0 (Linux; Android 5.1.1; SM-G532F Build/LMY48B) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/69.0.3497.100 Mobile Safari/537.36',
 ];
-
-console.log(JSON.stringify(userAgents)); // Log the userAgents array as a JSON string
+// Instead of logging, output it as JSON
+console.log(JSON.stringify(userAgents));
